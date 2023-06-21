@@ -1,0 +1,74 @@
+@media (max-width: 450px) {
+  .conteiner {
+    position: relative;
+    /* margin: auto; */
+    width: 100%;
+    height: 100%;
+    background: rgb(40, 39, 39);
+    margin-top: 0;
+  }
+  .left-nav {
+    height: 70px;
+    /* position: relative; */
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .sty-li {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    /* background: white; */
+    top: -10px;
+    left: 121px;
+  }
+  .sty-li img {
+    margin-right: 20px;
+    background: rgb(39, 39, 86);
+    border-radius: 10px;
+  }
+  .photo-mi {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+
+    background: rgb(37, 37, 37);
+    line-height: 10px;
+  }
+  .photo {
+    position: relative;
+    border-radius: 5px;
+  }
+  .social {
+    display: flex;
+    position: relative;
+    top: -45%;
+    justify-content: center;
+    align-items: center;
+    left: -20px;
+  }
+  .social-icons-1 {
+    list-style: none;
+  }
+
+  .naem,
+  .job {
+    top: -35%;
+  }
+  .owerflow {
+    height: 500px;
+    width: 418px;
+    position: absolute;
+    top: 497px;
+    left: -27px;
+    overflow-x: hidden;
+    color: aliceblue;
+  }
+  .card {
+    top: 89px;
+    left: 12px;
+    background: none;
+  }
+}
